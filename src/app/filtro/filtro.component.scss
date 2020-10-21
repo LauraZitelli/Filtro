@@ -2,3 +2,18 @@
   width: 300px;
   height: 300px;
 }
+
+.container-title {
+  h1 {
+    text-align: center;
+  }
+}
+
+th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+  width: 100%;
+}
+
+.custom-button {
+  margin-top: 10px;
+  justify-content: right;
+}
