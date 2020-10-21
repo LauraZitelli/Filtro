@@ -1,0 +1,32 @@
+.titulo {
+  font-size: 18px;
+  &.pago {
+    background-color: #8DD7BF;
+  }
+
+  &.cancelado {
+    background-color: #E77577;
+  }
+
+  &.pendente {
+    background-color: #FFD872;
+  }
+
+  &.agendado {
+    background-color: #3DB7E4;
+  }
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 20px 20px 20px 20px;
+}
+
+.btn {
+  width: 60px;
+  height: 40px;
+  background-color: aliceblue;
+}
+

@@ -1,0 +1,14 @@
+<div>
+  <button class="btn" (click)="openFiltroModal()">Filtrar</button>
+</div>
+<div>
+  <mat-card class="card" *ngFor="let item of filteredPayments">
+    <mat-card-content>
+      <mat-card-title class="titulo" [ngClass]="{'pago': item.estado === 'Pago', 'cancelado': item.estado === 'Cancelado',
+        'pendente': item.estado === 'Pendente', 'agendado': item.estado === 'Agendado'}">{{item.nome}}</mat-card-title>
+      <br>
+      <p>R$ {{item.preco}}</p>
+    </mat-card-content>
+  </mat-card>
+</div>
+
